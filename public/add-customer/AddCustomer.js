@@ -20,10 +20,21 @@
 					{ name: 'Cryptography advice' }
 				];
 
-				scope.addCustomer = function () {
+				scope.add = function () {
+					
+					var data = {
+						name: scope.name,
+						product: scope.product
+					};
 
+					$http.post('/api/customer/add', data).then(function(res) {
+						scope.onAdded();
+					});
+
+					// resets the textfield and dropdown
+					scope.name = "";
+					scope.product = "Choose Product";
 				};
-
 			}
 		}
 	};

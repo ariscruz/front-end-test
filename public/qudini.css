@@ -1,0 +1,31 @@
+ul li {
+  margin: 1px;
+  padding: 1px;
+  list-style-type: square; }
+
+ul span {
+  color: brown;
+  font-size: 14px;
+  font-family: cursive; }
+
+ul button {
+  background-color: aquamarine;
+  font-family: cursive; }
+
+h2 {
+  color: blueviolet;
+  font-family: cursive; }
+
+.AddCustomer button {
+  background-color: aquamarine;
+  font-family: cursive; }
+
+.AddCustomer input {
+  color: brown;
+  font-family: cursive;
+  border: 1px solid yellow; }
+
+.AddCustomer select {
+  color: brown;
+  font-family: cursive;
+  border: 1px solid yellow; }
